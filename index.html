@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopping cart</title>
+  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+</head>
+
+<body>
+  <div>
+    <table>
+      <tr>
+        <th>AJOUTER</th>
+        <th>ARTICLE</th>
+        <th>QUANTITÉ</th>
+        <th>PRIX UNITAIRE</th>
+        <th>SOUS-TOTAL</th>
+      </tr>
+      <tr>
+        <td><input class="check" type="checkbox"></td>
+        <td> <img
+            src="https://www.academiedugout.fr/images/16365/370-274/ffffff/fotolia_55292183_subscription_xl-copy.jpg?poix=50&poiy=50"
+            alt=""> </td>
+        <td>
+          <div class="btn">
+            <input class="qte" type="number" value="0" min="0">
+          </div>
+        </td>
+        <td class="prix">1.500</td>
+        <td id="p1" class="PrixT">0.000</td>
+        <td>
+          <div class="del">
+            <button class="delete"><i class="fas fa-trash"></i></button>
+            <button class="like"><i class="fas fa-heart" ></i></button>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td><input class="check" type="checkbox"></td>
+        <td> <img src="https://www.bigbasket.com/media/uploads/p/xxl/10000148_30-fresho-onion.jpg" alt=""> </td>
+        <td>
+          <div class="btn">
+            <input class="qte" type="number" value="0" min="0">
+          </div>
+        </td>
+        <td class="prix">1.000</td>
+        <td id="p2" class="PrixT"></td>>0.000</td>
+        <td>
+          <div class="del">
+            <button class="delete"><i class="fas fa-trash"></i></button>
+            <button class="like"><i class="fas fa-heart"></i></button>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td><input class="check" type="checkbox"></td>
+        <td> <img
+            src="https://static.webteb.net/images/content/tbl_articles_article_19351_87972698caa-807c-49aa-8ba8-ed78c71f18f8.jpg"
+            alt=""> </td>
+        <td>
+          <div class="btn">
+            <input class="qte" type="number" value="0" min="0">
+          </div>
+        </td>
+        <td class="prix">2.000</td>
+        <td id="p3" class="PrixT"></td>>0</td>
+        <td>
+          <div class="del">
+            <button class="delete"><i class="fas fa-trash"></i></button>
+            <button class="like"><i class="fas fa-heart"></i></button>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td><input class="check" type="checkbox"></td>
+        <td> <img
+            src="https://www.olfastory.com/sites/www.olfastory.com/files/styles/400x400/public/carotte.jpg?itok=odZy5Xdl"
+            alt=""> </td>
+        <td>
+          <div class="btn">
+            <input class="qte" type="number" value="0" min="0">
+          </div>
+        </td>
+        <td class="prix">1.800</td>
+        <td id="p4" class="PrixT"></td>>0</td>
+        <td>
+          <div class="del">
+            <button class="delete"><i class="fas fa-trash"></i></button>
+            <button class="like"><i class="fas fa-heart"></i></button>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>TOTAL</td>
+        <td id="total">0</td>
+        <td></td>
+      </tr>
+    </table>
+  </div>
+
+  <script src="/script.js">  </script>
+</body>
+
+</html>

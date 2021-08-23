@@ -1,0 +1,77 @@
+body{
+    background: url(/image\ bg.jpg) fixed center/cover ;
+}
+img {
+    width: 200px;
+    height: 170px;
+  }
+ table {
+     position: absolute;
+     top: 80px;
+     bottom: 80px;
+     height: 85%;
+     width: 85%;
+     left: 50%;
+     transform: translateX(-50%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.01);
+    backdrop-filter: blur(20px);
+    font-family: Saira Condensed;
+    font-size: 24px;
+    color: rgb(230, 203, 185);
+  }
+  td{
+      /* border: 1px solid black; */
+text-align: center;  }
+.btn-cont {
+    display: flex;
+  
+    justify-content: space-evenly;
+    width: 100px;
+    height: 40px;
+    background: transparent;
+    border: 0.2px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 10px 20px rgba(43, 42, 42, 0.5);
+ top: 50%;
+margin-left: 50%;  
+  border-radius: 40px;
+    margin-right: 20px;
+    align-items: center;
+    transform: translateX(-50%);
+  }
+  .del button {
+    outline: none;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-size: xx-large;
+    /* color: #424242; */
+  }
+  
+  .like:hover {
+  
+    color: red;
+  }
+  input{
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: large;
+    height: 20px;
+    width: 40px;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  }
+/* #in[type=number]::-webkit-inner-spin-button, 
+#in[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;  */
+}
+.bt {
+color: red;;
+}
